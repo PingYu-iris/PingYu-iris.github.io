@@ -67,3 +67,22 @@ scholar:
 # Analytics (optional)
 # -----------------------------------------------------------------------------
 google_analytics: # your Google Analytics ID (if you want analytics)
+
+# Third-party libraries
+# -----------------------------------------------------------------------------
+third_party_libraries:
+  download: true
+  mathjax:
+    enable: true
+  chartjs:
+    enable: false
+  echarts:
+    enable: false
+  vega_lite:
+    enable: false
+  mermaid:
+    enable: false
+  tikzjax:
+    enable: false
+  typograms:
+    enable: false
