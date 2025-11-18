@@ -1,21 +1,69 @@
-title: "Ping Yu"
-name: "Ping Yu"
-tagline: "AI Researcher — LLM Reasoning, Alignment, and Self-Improvement"
+# -----------------------------------------------------------------------------
+# Site settings
+# -----------------------------------------------------------------------------
 
-email: "pyu.iris@gmail.com"
-github_username: "PingYu-iris"
-linkedin_username: ""   # optional, fill if you have one
-google_scholar_id: "-V7TJhwAAAAJ"
+title: Ping Yu
+first_name: Ping
+middle_name: 
+last_name: Yu
+email: pyu.iris@gmail.com
+description: > # the ">" symbol means to ignore newlines
+  Senior Research Scientist at Meta FAIR, working on LLM reasoning, alignment, and self-improvement.
+footer_text: >
+  Powered by <a href="https://jekyllrb.com/" target="_blank">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio">al-folio</a> theme.
 
-navbar:
-  - name: "About"
-    link: "/about"
-  - name: "Research"
-    link: "/research"
-  - name: "Projects"
-    link: "/projects"
-  - name: "Contact"
-    link: "/contact"
+keywords: machine-learning, deep-learning, nlp, llm, reasoning, alignment
 
-footer:
-  show_powered_by: false
+lang: en
+
+# Your base URL (leave empty for GitHub Pages)
+url: https://PingYu-iris.github.io
+baseurl: # leave blank for user page
+
+# -----------------------------------------------------------------------------
+# Profile settings
+# -----------------------------------------------------------------------------
+
+# Profile picture
+profile:
+  align: right
+  image: prof_pic.jpg  # 你可以上传照片到 assets/img/ 目录
+  image_circular: false
+  more_info: >
+    <p>Senior Research Scientist</p>
+    <p>Meta FAIR</p>
+    <p>Seattle, WA</p>
+
+# Social integration
+# -----------------------------------------------------------------------------
+
+github_username: PingYu-iris
+twitter_username: # 如果有的话填写
+linkedin_username: # 如果有的话填写
+scholar_userid: # 从你的 Google Scholar URL 中获取
+orcid_id: # 如果有的话填写
+medium_username: 
+stackoverflow_id: 
+kaggle_userid: 
+
+# Blog settings
+# -----------------------------------------------------------------------------
+blog_name: Ping Yu's Blog
+blog_nav_title: blog
+blog_description: Thoughts on LLM reasoning, alignment, and AI research
+
+# Display settings
+# -----------------------------------------------------------------------------
+display_categories: [reasoning, alignment, synthetic-data, self-improvement]
+enable_projects: true
+enable_publications: true
+
+# Publication settings
+# -----------------------------------------------------------------------------
+scholar:
+  last_name: [Yu]
+  first_name: [Ping]
+
+# Analytics (optional)
+# -----------------------------------------------------------------------------
+google_analytics: # your Google Analytics ID (if you want analytics)

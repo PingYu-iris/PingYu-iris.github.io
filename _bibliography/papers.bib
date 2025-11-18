@@ -1,115 +1,111 @@
----
----
+% 将这个文件保存为 _bibliography/papers.bib
 
-@string{aps = {American Physical Society,}}
-
-@book{einstein1920relativity,
-  title={Relativity: the Special and General Theory},
-  author={Einstein, Albert},
-  year={1920},
-  publisher={Methuen & Co Ltd},
-  html={relativity.html}
-}
-
-@book{einstein1956investigations,
-  bibtex_show={true},
-  title={Investigations on the Theory of the Brownian Movement},
-  author={Einstein, Albert},
-  year={1956},
-  publisher={Courier Corporation},
-  preview={brownian-motion.gif}
-}
-
-@article{einstein1950meaning,
-  abbr={AJP},
-  bibtex_show={true},
-  title={The meaning of relativity},
-  author={Einstein, Albert and Taub, AH},
-  journal={American Journal of Physics},
-  volume={18},
-  number={6},
-  pages={403--404},
-  year={1950},
-  publisher={American Association of Physics Teachers}
-}
-
-@article{PhysRev.47.777,
-  abbr={PhysRev},
-  title={Can Quantum-Mechanical Description of Physical Reality Be Considered Complete?},
-  author={Einstein*†, A. and Podolsky*, B. and Rosen*, N.},
-  abstract={In a complete theory there is an element corresponding to each element of reality. A sufficient condition for the reality of a physical quantity is the possibility of predicting it with certainty, without disturbing the system. In quantum mechanics in the case of two physical quantities described by non-commuting operators, the knowledge of one precludes the knowledge of the other. Then either (1) the description of reality given by the wave function in quantum mechanics is not complete or (2) these two quantities cannot have simultaneous reality. Consideration of the problem of making predictions concerning a system on the basis of measurements made on another system that had previously interacted with it leads to the result that if (1) is false then (2) is also false. One is thus led to conclude that the description of reality as given by a wave function is not complete.},
-  journal={Phys. Rev.},
-  location={New Jersey},
-  volume={47},
-  issue={10},
-  pages={777--780},
-  numpages={0},
-  year={1935},
-  month={May},
-  publisher=aps,
-  doi={10.1103/PhysRev.47.777},
-  url={http://link.aps.org/doi/10.1103/PhysRev.47.777},
-  html={https://journals.aps.org/pr/abstract/10.1103/PhysRev.47.777},
-  pdf={example_pdf.pdf},
-  altmetric={248277},
-  dimensions={true},
-  google_scholar_id={qyhmnyLat1gC},
-  video={https://www.youtube-nocookie.com/embed/aqz-KE-bpKQ},
-  additional_info={. *More Information* can be [found here](https://github.com/alshedivat/al-folio/)},
-  annotation={* Example use of superscripts<br>† Albert Einstein},
+@article{tao2025moving,
+  title={Moving Beyond Binary Verifiable Reward},
+  author={Tao, Leitian and Kulikov, Ilia and Weston, Jason and Yu, Ping},
+  year={2025},
   selected={true},
-  inspirehep_id = {3255}
+  preview={reasoning.png},
+  abstract={Current research on reasoning tasks mainly focuses on verifiable rewards. We studied whether using verifiable answers for GRPO can help with hard-to-verify reasoning tasks, and explored whether including hard-to-verify training data is necessary. We proposed combining reward model signals with rule-based signals for model training.}
 }
 
-@article{einstein1905molekularkinetischen,
-  title={{\"U}ber die von der molekularkinetischen Theorie der W{\"a}rme geforderte Bewegung von in ruhenden Fl{\"u}ssigkeiten suspendierten Teilchen},
-  author={Einstein, A.},
-  journal={Annalen der physik},
-  volume={322},
-  number={8},
-  pages={549--560},
-  year={1905},
-  publisher={Wiley Online Library}
+@article{yu2024distilling,
+  title={Distilling System 2 into System 1},
+  author={Yu, Ping and Xu, Jing and Weston, Jason and Kulikov, Ilia},
+  year={2024},
+  selected={true},
+  pdf={https://arxiv.org/abs/xxxx},
+  preview={distill.png},
+  abstract={Investigate self-supervised methods to 'compile' (distill) higher quality outputs from System 2 techniques back into LLM generations without intermediate reasoning token sequences, as this reasoning has been distilled into System 1.}
 }
 
-@article{einstein1905movement,
-  abbr={Ann. Phys.},
-  title={Un the movement of small particles suspended in statiunary liquids required by the molecular-kinetic theory 0f heat},
-  author={Einstein, A.},
-  journal={Ann. Phys.},
-  volume={17},
-  pages={549--560},
-  year={1905}
+@article{yu2025cot,
+  title={CoT-Self-Instruct: Building High-Quality Synthetic Prompts for Reasoning and Non-Reasoning Tasks},
+  author={Yu, Ping and Lanchantin, Jack and Wang, Tianlu and others},
+  year={2025},
+  selected={true},
+  pdf={https://arxiv.org/abs/xxxx},
+  preview={cot_instruct.png},
+  abstract={Proposed CoT-Self-Instruct, a synthetic data generation method that uses Chain-of-Thought reasoning and automatic filtering to create high-quality training data. Achieves state-of-the-art results on verifiable reasoning benchmarks.}
 }
 
-@article{einstein1905electrodynamics,
-  title={On the electrodynamics of moving bodies},
-  author={Einstein, A.},
-  year={1905}
+@inproceedings{yu2025rip,
+  title={RIP: Better Models by Survival of the Fittest Prompts},
+  author={Yu, Ping and Yuan, Weizhe and others},
+  booktitle={ICML},
+  year={2025},
+  selected={true},
+  pdf={https://arxiv.org/abs/xxxx},
+  preview={rip.png},
+  abstract={Proposed Rejecting Instruction Preferences (RIP), a data filtering method that evaluates training prompts via rejected response quality and reward gap. Achieved +9.4% AlpacaEval2, +8.7% Arena-Hard, +9.9% WildBench gains.}
 }
 
-@Article{einstein1905photoelectriceffect,
-  bibtex_show={true},
-  abbr={Ann. Phys.},
-  title="{{\"U}ber einen die Erzeugung und Verwandlung des Lichtes betreffenden heuristischen Gesichtspunkt}",
-  author={Albert Einstein},
-  abstract={This is the abstract text.},
-  journal={Ann. Phys.},
-  volume={322},
-  number={6},
-  pages={132--148},
-  year={1905},
-  doi={10.1002/andp.19053220607},
-  award={Albert Einstein receveid the **Nobel Prize in Physics** 1921 *for his services to Theoretical Physics, and especially for his discovery of the law of the photoelectric effect*},
-  award_name={Nobel Prize}
+@inproceedings{li2024self,
+  title={Self-Alignment with Instruction Backtranslation},
+  author={Li, Xian and Yu, Ping and Zhou, Chunting and others},
+  booktitle={ICLR (Oral)},
+  year={2024},
+  selected={true},
+  pdf={https://arxiv.org/abs/xxxx},
+  preview={backtranslation.png},
+  abstract={Developed instruction backtranslation, a scalable method to train instruction-following LLMs by automatically generating and curating instruction-response pairs from web text.}
 }
 
-@book{przibram1967letters,
-  bibtex_show={true},
-  title={Letters on wave mechanics},
-  author={Einstein, Albert and Schrödinger, Erwin and Planck, Max and Lorentz, Hendrik Antoon and Przibram, Karl},
-  year={1967},
-  publisher={Vision},
-  preview={wave-mechanics.gif},
-  abbr={Vision}
+@article{yu2025restrain,
+  title={ReStrain: Reinforcement with Self-Restraint Training on Reasoning Tasks},
+  author={Yu, Zhaoning and Su, Zhaolun and Wang, Haozhu and Weston, Jason and Yu, Ping and Xu, Jing},
+  year={2025},
+  selected={true},
+  preview={restrain.png},
+  abstract={Introduced RESTRAIN, a self-penalizing RL framework that transforms unlabeled data into training signals by penalizing overconfident or low-confidence rollouts while preserving promising reasoning chains.}
+}
+
+@article{wang2023shepherd,
+  title={Shepherd: A Critic for Language Model Generation},
+  author={Wang, Tianlu and Yu, Ping and Tan, Ellen and others},
+  year={2023},
+  selected={true},
+  pdf={https://arxiv.org/abs/xxxx},
+  preview={shepherd.png},
+  abstract={Introduced Shepherd, a 7B-parameter LLM tuned to critique and refine model outputs using a curated feedback dataset. Achieved 53-87% win rates against competitive alternatives.}
+}
+
+@article{whitehouse2025j1,
+  title={J1: Incentivizing Thinking in LLM-as-a-Judge via Reinforcement Learning},
+  author={Whitehouse, Chenxi and Wang, Tianlu and Yu, Ping and others},
+  year={2025},
+  selected={true},
+  pdf={https://arxiv.org/abs/xxxx},
+  preview={j1.png},
+  abstract={Introduced J1, a reinforcement learning approach for training LLM-as-a-Judge with verifiable rewards that incentivize reasoning and reduce bias. Outperforms all existing 8B/70B models.}
+}
+
+@article{wang2024self,
+  title={Self-Taught Evaluators},
+  author={Wang, Tianlu and Kulikov, Ilia and Golovneva, Olga and Yu, Ping and others},
+  year={2024},
+  selected={true},
+  pdf={https://arxiv.org/abs/xxxx},
+  preview={self_taught.png},
+  abstract={Proposed Self-Taught Evaluator, a synthetic-data approach for training LLM-as-a-Judge without human labels. Improved LLaMA3-70B-Instruct from 75.4 to 88.3 on RewardBench.}
+}
+
+@article{chameleon2024,
+  title={Chameleon: Mixed-Modal Early-Fusion Foundation Models},
+  author={Chameleon Team},
+  year={2024},
+  selected={false},
+  pdf={https://arxiv.org/abs/xxxx},
+  preview={chameleon.png},
+  abstract={Developed Chameleon, a family of early-fusion token-based multimodal models for unified image-text understanding and generation. Achieves state-of-the-art results in image captioning.}
+}
+
+@article{opt2022,
+  title={OPT-IML: Scaling Language Model Instruction Meta Learning Through the Lens of Generalization},
+  author={OPT Team},
+  year={2022},
+  selected={false},
+  pdf={https://arxiv.org/abs/xxxx},
+  preview={opt_iml.png},
+  abstract={Developed OPT-IML Bench, a large benchmark of 2,000 NLP tasks for studying instruction-tuning decisions. Trained OPT-IML 30B and 175B with improved generalization.}
 }
