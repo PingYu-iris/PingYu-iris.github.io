@@ -18,17 +18,9 @@ social: true  # includes social icons at the bottom of the page
 
 I am a Senior Research Scientist at [Meta FAIR](https://ai.meta.com/research/) in Seattle, where I focus on advancing the reasoning and alignment capabilities of large language models (LLMs).
 
-My research interests span multiple areas of LLM development:
-
-**Reasoning & Self-Improvement**: I explore how to distill System-2 reasoning into LLMs and develop methods for self-improvement through iterative refinement. Recent work includes [Distilling System 2 into System 1](https://arxiv.org/abs/xxxx) and ReStrain, a self-penalizing RL framework for reasoning tasks.
-
-**Alignment & Evaluation**: I design alignment strategies including training models to act as judges (LLM-as-a-Judge) and integrating heterogeneous reward signals. My work on [J1](https://arxiv.org/abs/xxxx) and [Self-Taught Evaluators](https://arxiv.org/abs/xxxx) demonstrates state-of-the-art performance in model evaluation and judgment.
-
-**Data-Centric AI**: I develop methods for generating and curating high-quality synthetic data. Projects like [CoT-Self-Instruct](https://arxiv.org/abs/xxxx) and [RIP](https://arxiv.org/abs/xxxx) achieve substantial improvements on reasoning and instruction-following benchmarks.
+My research interests focus on advancing the \textbf{reasoning} and \textbf{alignment} capabilities of large language models (LLMs). I have explored how to distill System-2 reasoning into LLMs, design alignment strategies such as training models to act as judges and integrating heterogeneous reward signals to improve GRPO, and develop methods for \textbf{LLM self-improvement} through iterative refinement. I am also interested in data-centric approaches, including generating and curating high-quality synthetic data to enhance pre-training and fine-tuning. 
 
 My current research focuses on **long-horizon credit assignment** for LLM-based agents and RL-trained models, particularly designing more informative and structured reward signals for agentic tasks with tool use and multi-step planning.
-
-Before joining Meta, I completed my Ph.D. in Computer Science at SUNY Buffalo (2018-2022) and my M.S. in EECS at the University of Michigan (2016-2018).
 
 #### Contact
 - Email: pyu.iris@gmail.com
