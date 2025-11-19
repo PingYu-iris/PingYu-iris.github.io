@@ -6,7 +6,7 @@ subtitle: Senior Research Scientist at <a href='https://ai.meta.com/research/'>M
 
 profile:
   align: right
-  image: prof_pic.jpg
+  image: about.jpg
   image_circular: false
   more_info: >
     <p>Senior Research Scientist</p>
