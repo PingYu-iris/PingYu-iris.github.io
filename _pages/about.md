@@ -2,11 +2,11 @@
 layout: about
 title: about
 permalink: /
-subtitle: Senior Research Scientist at <a href='https://ai.meta.com/research/'>Meta FAIR</a>, Seattle, WA
+# subtitle: Senior Research Scientist at <a href='https://ai.meta.com/research/'>Meta FAIR</a>, Seattle, WA
 
 profile:
   align: right
-  image: about.jpg
+  image: about1.jpg
   image_circular: false
   more_info: >
     <p>Senior Research Scientist</p>
