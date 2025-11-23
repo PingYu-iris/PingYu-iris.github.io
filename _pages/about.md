@@ -13,9 +13,9 @@ profile:
     <p>Meta FAIR</p>
     <p>Seattle, WA</p>
 
-news: true  # includes a list of news items
-selected_papers: true # includes a list of papers marked as "selected={true}"
-social: true  # includes social icons at the bottom of the page
+news: true  # 显示 news
+selected_papers: false # 不显示 selected papers（因为你在 publications.md 里分类展示）
+social: true  # 显示社交媒体图标
 ---
 
 I am a Senior Research Scientist at [Meta FAIR](https://ai.meta.com/research/) in Seattle, where I focus on advancing the reasoning and alignment capabilities of large language models (LLMs).
