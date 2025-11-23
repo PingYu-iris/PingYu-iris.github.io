@@ -3,7 +3,7 @@ layout: page
 permalink: /publications/
 title: publications
 description: Publications organized by research topics
-nav: true
+nav: false
 nav_order: 1
 ---
 

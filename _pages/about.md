@@ -26,9 +26,9 @@ My current research focuses on **long-horizon credit assignment** for LLM-based 
 
 ---
 
-## Publications
+<h2 style="text-align: center; margin-top: 3rem; margin-bottom: 2rem; font-size: 2rem; color: #333;">Publications</h2>
 
-### Improving LLM Reasoning Ability
+<h3 style="margin-top: 2.5rem; margin-bottom: 1rem; padding-bottom: 0.5rem; border-bottom: 2px solid #e0e0e0; color: #555;">Improving LLM Reasoning Ability</h3>
 
 **Moving Beyond Binary Verifiable Reward**  
 Leitian Tao, Ilia Kulikov, Jason Weston, Ping Yu  
@@ -46,7 +46,7 @@ Investigate self-supervised methods to 'compile" (distill) higher quality output
 
 ---
 
-### Exploring Data Quality Improvement & Synthetic Data Generation
+<h3 style="margin-top: 2.5rem; margin-bottom: 1rem; padding-bottom: 0.5rem; border-bottom: 2px solid #e0e0e0; color: #555;">Exploring Data Quality Improvement & Synthetic Data Generation</h3>
 
 **CoT-Self-Instruct: Building high-quality synthetic prompts for reasoning and non-reasoning tasks**  
 Ping Yu, Jack Lanchantin, Tianlu Wang, et al.  
@@ -72,7 +72,7 @@ Developed instruction backtranslation, a scalable method to train instruction-fo
 
 ---
 
-### Self-Improvement
+<h3 style="margin-top: 2.5rem; margin-bottom: 1rem; padding-bottom: 0.5rem; border-bottom: 2px solid #e0e0e0; color: #555;">Self-Improvement</h3>
 
 **ReStrain: Reinforcement with Self-Restraint training on Reasoning Tasks**  
 Zhaoning Yu\*, Zhaolun Su\*, Haozhu Wang, Jason Weston, Ping Yu\*, Jing Xu\*  
@@ -90,7 +90,7 @@ Introduced Shepherd, a 7B-parameter LLM tuned to critique and refine model outpu
 
 ---
 
-### LLM as Judge
+<h3 style="margin-top: 2.5rem; margin-bottom: 1rem; padding-bottom: 0.5rem; border-bottom: 2px solid #e0e0e0; color: #555;">LLM as Judge</h3>
 
 **J1: Incentivizing Thinking in LLM-as-a-Judge via Reinforcement Learning**  
 Chenxi Whitehouse, Tianlu Wang, Ping Yu, et al.  
@@ -108,7 +108,7 @@ Proposed Self-Taught Evaluator, a synthetic-data approach for training LLM-as-a-
 
 ---
 
-### Others
+<h3 style="margin-top: 2.5rem; margin-bottom: 1rem; padding-bottom: 0.5rem; border-bottom: 2px solid #e0e0e0; color: #555;">Others</h3>
 
 **Chameleon: Mixed-modal early-fusion foundation models**  
 Chameleon team  
