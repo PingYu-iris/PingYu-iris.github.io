@@ -1,6 +1,6 @@
 ---
 layout: about
-title: about
+title: home
 permalink: /
 
 profile:
@@ -13,7 +13,7 @@ profile:
     <p>Seattle, WA</p>
 
 news: true
-selected_papers: false
+selected_papers: true
 social: true  # 关闭底部的 social icons，我们自己添加
 ---
 
