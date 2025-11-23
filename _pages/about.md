@@ -14,7 +14,7 @@ profile:
 
 news: true
 selected_papers: false
-social: false  # 关闭底部的 social icons，我们自己添加
+social: true  # 关闭底部的 social icons，我们自己添加
 ---
 
 I am a Senior Research Scientist at [Meta FAIR](https://ai.meta.com/research/) in Seattle, where I focus on advancing the reasoning and alignment capabilities of large language models (LLMs).
@@ -23,8 +23,11 @@ My research interests focus on advancing the **reasoning** and **alignment** cap
 
 My current research focuses on **long-horizon credit assignment** for LLM-based agents and RL-trained models, particularly designing more informative and structured reward signals for agentic tasks with tool use and multi-step planning.
 
-<div class="contact-icons" style="margin-top: 2rem; font-size: 1.5rem;">
-  <a href="mailto:ping.yu.nlp@gmail.com" title="Email"><i class="fas fa-envelope"></i></a>
-  <a href="https://www.linkedin.com/in/ping-yu-05ba8212b" title="LinkedIn" target="_blank"><i class="fab fa-linkedin"></i></a>
-  <a href="https://scholar.google.com/citations?user=qc6CJjYAAAAJ" title="Google Scholar" target="_blank"><i class="ai ai-google-scholar"></i></a>
+<div style="margin-top: 2rem;">
+  <p><strong>📧 Email:</strong> <a href="mailto:ping.yu.nlp@gmail.com">ping.yu.nlp@gmail.com</a> <em>(Updated)</em></p>
+  <div style="font-size: 1.5rem; margin-top: 0.5rem;">
+    <a href="https://www.linkedin.com/in/ping-yu-05ba8212b" title="LinkedIn" target="_blank"><i class="fab fa-linkedin"></i></a>
+    <a href="https://scholar.google.com/citations?user=qc6CJjYAAAAJ" title="Google Scholar" target="_blank" style="margin-left: 1rem;"><i class="ai ai-google-scholar"></i></a>
+    <a href="https://github.com/PingYu-iris" title="GitHub" target="_blank" style="margin-left: 1rem;"><i class="fab fa-github"></i></a>
+  </div>
 </div>
