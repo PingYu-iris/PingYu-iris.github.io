@@ -7,46 +7,7 @@ profile:
   align: right
   image: about1.jpg
   image_circular: false
-  more_info: >
-    <p>Senior Research Scientist</p>
-    <p>Meta FAIR</p>
-    <p>Seattle, WA</p>
-
-news: true
-selected_papers: false
-social: true  # 关闭底部的 social icons，我们自己添加
----
-
-I am a Senior Research Scientist at [Meta FAIR](https://ai.meta.com/research/) in Seattle, where I focus on advancing the reasoning and alignment capabilities of large language models (LLMs).
-
-My research interests focus on advancing the **reasoning** and **alignment** capabilities of large language models (LLMs). I have explored how to distill System-2 reasoning into LLMs, design alignment strategies such as training models to act as judges and integrating heterogeneous reward signals to improve GRPO, and develop methods for **LLM self-improvement** through iterative refinement. I am also interested in data-centric approaches, including generating and curating high-quality synthetic data to enhance pre-training and fine-tuning.
-
-My current research focuses on **long-horizon credit assignment** for LLM-based agents and RL-trained models, particularly designing more informative and structured reward signals for agentic tasks with tool use and multi-step planning.
-
-<div style="margin-top: 2rem;">
-  <p><strong>📧 Email:</strong> <a href="mailto:ping.yu.nlp@gmail.com">ping.yu.nlp@gmail.com</a> <em>(Updated)</em></p>
-  <div style="font-size: 1.5rem; margin-top: 0.5rem;">
-    <a href="https://www.linkedin.com/in/ping-yu-05ba8212b" title="LinkedIn" target="_blank"><i class="fab fa-linkedin"></i></a>
-    <a href="https://scholar.google.com/citations?user=qc6CJjYAAAAJ" title="Google Scholar" target="_blank" style="margin-left: 1rem;"><i class="ai ai-google-scholar"></i></a>
-    <a href="https://github.com/PingYu-iris" title="GitHub" target="_blank" style="margin-left: 1rem;"><i class="fab fa-github"></i></a>
-  </div>
-</div>
-
-明白了！你想在 about.md 页面底部按照主题分类显示所有 publications。
-修改 about.md：
-markdown---
-layout: about
-title: about
-permalink: /
-
-profile:
-  align: right
-  image: about1.jpg
-  image_circular: false
-  more_info: >
-    <p>Senior Research Scientist</p>
-    <p>Meta FAIR</p>
-    <p>Seattle, WA</p>
+  more_info:
 
 news: true
 selected_papers: false
