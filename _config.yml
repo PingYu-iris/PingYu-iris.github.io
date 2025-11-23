@@ -6,7 +6,7 @@ title: Ping Yu # the website title (if blank, full name will be used instead)
 first_name: Ping
 middle_name: 
 last_name: Yu
-email: pyu.iris@gmail.com
+email: ping.yu.nlp@gmail.com
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
   A simple, whitespace theme for academics. Based on [*folio](https://github.com/bogoli/-folio) design.
 footer_text: >
@@ -313,8 +313,8 @@ display_categories: ["external-services"] # these categories will be displayed o
 # -----------------------------------------------------------------------------
 
 scholar:
-  last_name: [Einstein]
-  first_name: [Albert, A.]
+  last_name: [Yu]
+  first_name: [Ping]
 
   style: apa
   locale: en
