@@ -13,7 +13,7 @@ selected_papers: false
 social: false
 ---
 
-I am a Senior Research Scientist at [Meta FAIR](https://ai.meta.com/research/) in Seattle, working in [Jason Weston](https://scholar.google.com/citations?user=lMkTx0EAAAAJ&hl=en)'s research group. I focus on advancing the reasoning and alignment capabilities of large language models (LLMs).
+I am a Research Scientist at [Meta FAIR](https://ai.meta.com/research/) in Seattle, working in [Jason Weston](https://scholar.google.com/citations?user=lMkTx0EAAAAJ&hl=en)'s research group. I focus on advancing the reasoning and alignment capabilities of large language models (LLMs).
 
 My research interests focus on advancing the **reasoning** and **alignment** capabilities of large language models (LLMs). I have explored how to distill System-2 reasoning into LLMs, design alignment strategies such as training models to act as judges and integrating heterogeneous reward signals to improve GRPO, and develop methods for **LLM self-improvement** through iterative refinement. I am also interested in data-centric approaches, including generating and curating high-quality synthetic data to enhance pre-training and fine-tuning.
 
